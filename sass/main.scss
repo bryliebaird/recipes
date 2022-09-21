@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "../node_modules/bootstrap/scss/functions";
+
+// Custom Variables
+$primary: #f16059;
+$secondary: #16be7e;
+$light: #fff9f1;
+$info: #daf7f6;
+$dark: #343a40;
+
+$font-family-base: "Poppins";
+
+$border-widths: (
+  1: 1px,
+  2: 3px,
+  3: 5px,
+  4: 7px,
+  5: 9px
+);
+
+$border-color: $dark;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
