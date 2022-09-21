@@ -14,12 +14,14 @@
     <!-- Custom Bootstrap SASS -->
     <link rel="stylesheet" href="/css/main.min.css">
 
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
     </head>
     <body>
-        
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-lg">
@@ -98,39 +100,59 @@
     </section> -->
 
     <!-- mobile recipe card -->
-    <section class="container-fluid bg-info">
-        <div class="container bg-light">
+    <section class="container-fluid bg-info pb-5">
+        <div class="container bg-light py-2">
             <div class="row">
-                <div class="col-12">
-                    <h3 class="text-primary my-2">KALE PASTA</h3>
+                <div id="recipe-title" class="col-12">
+                    <h3 class="text-primary text-center my-2">KALE PASTA</h3>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-md-4 text-center">
                     <img class="img-fluid" src="img/kale2.jpg" alt="kale pasta recipe image">
                 </div>
-                <div class="col-12">
-                    <h6 class="text-primary border-top border-bottom py-2 mt-4">Ingredients</h6>
-                    <ul>
-                        <li>8 oz pasta</li>
-                        <li>5 cups kale de-stemmed and chopped</li>
-                        <li>1 cup soy yogurt</li>
-                        <li>1 tsp salt</li>
-                        <li>1 tsp garlic powder</li>
-                        <li>1 tbsp maple syrup</li>
-                        <li>1 cup vegan cheese grated</li>
-                        <li>juice of 1 lemon</li> 
-                    </ul>
-                </div>
-                <div class="col-12">
-                    <h6 class="text-primary border-top border-bottom py-2">Directions</h6>
-                    <ol>
-                        <li>Cook the pasta according to instructions on packaging.</li>
-                        <li class="my-3">Add the kale, soy yogurt, salt, garlic powder, maple syrup, grated cheese and lemon juice to a blender or food processor. Blend until all the kale breaks down.</li>
-                        <li>When the pasta is ready, mix it with the sauce and serve with any garnishes of your choice, or keep in the fridge in an airtight container for 3-4 days.</li>
-                    </ol>
+                <div class="col-12 col-md-8">
+                    <h3 class="text-primary text-center">KALE PASTA</h3>
+                    <div class="container border d-flex justify-content-between">
+                        <p class="mb-0"><i class="bi bi-clock"></i>&nbsp;PREP TIME: 10 mins</p>
+                        <p class="mb-0"><i class="bi bi-clock"></i>&nbsp;COOK TIME: 10 mins</p>
+                        <p class="mb-0"><i class="bi bi-clock"></i>&nbsp;TOTAL TIME: 10 mins</p>
+                    </div>
+                    <p class="my-2">This kale pasta with lemon juice is ready in just 15 minutes, but certainly doesn't miss any flavor!</p>
+                    <div class="row">
+                        <div id="ingredients-col" class="col-12 col-md-6">
+                            <h6 class="text-primary text-center border-top border-bottom py-2">Ingredients</h6>
+                            <ul class="py-2">
+                                <li>8 oz pasta</li>
+                                <li>5 cups kale de-stemmed and chopped</li>
+                                <li>1 cup soy yogurt</li>
+                                <li>1 tsp salt</li>
+                                <li>1 tsp garlic powder</li>
+                                <li>1 tbsp maple syrup</li>
+                                <li>1 cup vegan cheese grated</li>
+                                <li>juice of 1 lemon</li> 
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <h6 class="text-primary text-center border-top border-bottom py-2">Directions</h6>
+                            <ol class="pt-2">
+                                <li>Cook the pasta according to instructions on packaging.</li>
+                                <li class="my-3">Add the kale, soy yogurt, salt, garlic powder, maple syrup, grated cheese and lemon juice to a blender or food processor. Blend until all the kale breaks down.</li>
+                                <li>When the pasta is ready, mix it altogether. Add chili-pepper flakes for an extra kick of spice!🌶️
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div>   
     </section>
+
+    <!-- footer -->
+    <footer class="py-3 bg-light">
+        <div class="container-lg text-center">
+        <p class="mb-0 text-muted">
+            Copyright 2022 
+        </p>
+        </div>
+    </footer>
 
         <script src="script.js" async defer></script>
     </body>
