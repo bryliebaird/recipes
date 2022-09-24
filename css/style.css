@@ -1,13 +1,5 @@
-/* main {
-    height: 100vh;
-    background: url("/img/bg-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
 #main-img {
-    height: 45vh;
+    height: 48vh;
 
     background: url("/img/bg-2.jpg");
     background-size: cover;
