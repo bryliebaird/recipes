@@ -1,10 +1,16 @@
-
-
+.tablet-title {
+    visibility: hidden;
+}
 
 /* Medium Devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 
     #recipe-title {
         display: none;
+    }
+
+    .tablet-title {
+        visibility: visible;
+    
     }
 }
