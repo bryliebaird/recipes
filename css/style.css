@@ -32,6 +32,10 @@ main {
     height: 300px;
 }
 
+.recipe-card {
+    width: 20vw;
+}
+
 
 
 /* Medium Devices (tablets, 768px and up) */

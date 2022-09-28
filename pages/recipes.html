@@ -27,7 +27,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-lg">
-                <a class="navbar-brand text-primary" href="#">Sweet Eats&nbsp;<i class="bi bi-arrow-through-heart"></i></a>
+                <a class="navbar-brand text-primary" href="../index.html">Sweet Eats&nbsp;<i class="bi bi-arrow-through-heart"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-list" aria-controls="nav-list" aria-expanded="false" aria-label="toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -44,29 +44,115 @@
             </div>
         </nav>
 
-        <!-- recipe collection-->
-        <section id="recipes-collection" class="container-fluid bg-info">
+        <!-- pasta -->
+        <section id="pasta" class="container-fluid bg-info py-4">
+            <div class="container-md">
+                <h3 class="mb-0">Pasta + Carbs</h3>
+                <hr class="recipe-collection-hr">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorem voluptate aut recusandae voluptates in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, facilis.</p>
+            </div>
             <div class="container-lg">
-                <div class="row">
+                <div class="row g-4 justify-content-center">
+                    <!-- card #1-->
+                    <div class="col-lg-4 col-xl-3">
+                        <div class="card o-75 o-100-hover">
+                            <img src="/img/kale.jpg" class="card-img-top" alt="kale pasta card image">
+                            <div class="card-body">
+                            <h5 class="card-title text-secondary">Kale Pasta</h5>
+                            <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
+                            </div>
+
+
+                            <img src="/img/aub-dish.jpg" class="card-img-top" alt="recipe img">
+                            <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary text-white">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card #2-->
                     <div class=" col-md-6 col-lg-3">
                         <div class="card">
                             <img src="/img/kale.jpg" class="card-img-top img-fluid recipe-card-img" alt="kale pasta card image">
                             <div class="card-body">
-                              <h5 class="card-title text-secondary">Kale Pasta</h5>
-                              <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
+                                <h5 class="card-title text-secondary">Kale Pasta</h5>
+                                <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                <div class=" col-md-6 col-lg-3">
-                    <div class="card">
+
+                    <!-- card #3 -->
+                    <div class=" col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="/img/kale.jpg" class="card-img-top img-fluid recipe-card-img" alt="kale pasta card image">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary">Kale Pasta</h5>
+                                <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="mason-jars" class="container-fluid bg-secondary py-4">
+            <div class="container-md">
+                <h3 class="mb-0">Mason Jar Meals</h3>
+                <hr class="recipe-collection-hr">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorem voluptate aut recusandae voluptates in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, facilis.</p>
+            </div>
+
+
+            <div id="pasta-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                        <div class="card recipe-card">
+                            <img src="/img/kale.jpg" class="card-img-top img-fluid recipe-card-img" alt="kale pasta card image">
+                            <div class="card-body">
+                                <h5 class="card-title text-secondary">Kale Pasta</h5>
+                                <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
+                            </div>
+                        </div>
+                  
+                  </div>
+                  <div class="carousel-item">
+
+                    <div class="card recipe-card">
                         <img src="/img/kale.jpg" class="card-img-top img-fluid recipe-card-img" alt="kale pasta card image">
                         <div class="card-body">
-                          <h5 class="card-title text-secondary">Kale Pasta</h5>
-                          <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
+                            <h5 class="card-title text-secondary">Kale Pasta</h5>
+                            <a href="/pages/kale-pasta.html" class="btn btn-primary">Click Here</a>
                         </div>
-                      </div>
+                    </div>
+                
+                  </div>
+                  <div class="carousel-item">
+                    
+                  </div>
                 </div>
-            
+                <button class="carousel-control-prev" type="button" data-bs-target="#pasta-carousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#pasta-carousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+
+
+
+        </section>
+
+        <section id="sweets" class="container-fluid bg-info py-4">
+            <div class="container-md">
+                <h3 class="mb-0">Sweets</h3>
+                <hr class="recipe-collection-hr">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorem voluptate aut recusandae voluptates in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, facilis.</p>
             </div>
         </section>
 
